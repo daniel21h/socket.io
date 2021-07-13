@@ -3,13 +3,17 @@
 
 ### Description
 
-This is my basic configuration of nodejs projects with express, using code patterns like ESLint, Prettier and EditorConfig.
+Realtime Chat using Socket.io
 
 ### Techs
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
+- [TSyringe](https://www.npmjs.com/package/tsyringe)
+- [Mongoose](https://mongoosejs.com/)
+- [Socket.io](https://socket.io/)
+
 
 ### Code Standards
 
@@ -38,12 +42,12 @@ Follow the instructions below to download and use the project from this reposito
 
 ```bash
 # Clone this repository using SSH
-$ git clone git@github.com:daniel21h/mysetup-nodejs.git
+$ git clone git@github.com:daniel21h/socket.io.git
 # or clone using https
-$ git clone https://github.com/daniel21h/mysetup-nodejs.git
+$ git clone https://github.com/daniel21h/socket.io.git
 
 # Go into the repository
-$ cd mysetup-node
+$ cd socket.io
 
 # Install dependencies
 $ yarn
